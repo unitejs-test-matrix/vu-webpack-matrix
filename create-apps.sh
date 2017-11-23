@@ -20,7 +20,7 @@ node unitejs/cli/bin/unite configure --packageName=vu-wpk-js-mch-pro --title="Vu
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/vu-wpk-js-mch-pro
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/vu-wpk-js-mch-pro
 node unitejs/cli/bin/unite generate --type=enum --name=MyEnum --disableVersionCheck --outputDirectory=./apps/vu-wpk-js-mch-pro
-node unitejs/cli/bin/unite generate --type=interface --name=MyInterface --disableVersionCheck --outputDirectory=./apps/u-wpk-js-mch-pro
+node unitejs/cli/bin/unite generate --type=interface --name=MyInterface --disableVersionCheck --outputDirectory=./apps/vu-wpk-js-mch-pro
 
 node unitejs/cli/bin/unite configure --packageName=vu-wpk-js-mch-wdr --title="Vue Webpack JavaScript" --sourceLanguage=JavaScript --moduleType=CommonJS --bundler=Webpack --unitTestRunner=Karma --unitTestFramework=MochaChai --unitTestEngine=ChromeHeadless --e2eTestRunner=WebdriverIO --e2eTestFramework=MochaChai --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Stylus --cssPost=PostCss --cssLinter=Stylint --documenter=ESDoc --appFramework=Vue --ides=vscode --disableVersionCheck --outputDirectory=./apps/vu-wpk-js-mch-wdr
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/vu-wpk-js-mch-wdr
